@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Down the River Contact Us</title>
+    <meta name="author" content="Daniel Rasmuson">
+    <meta name="description"
+        content="A contact us page made for the course WDD130. With the purpose of learning and demonstrating my knowledge of forms and basic web development">
+
+    <link rel="stylesheet" href="styles/rafting.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Dirt&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo Img" width="200">
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="team">
+            <h1>Meet Our Team</h1>
+            <figure>
+                <img src="images/employee01.jpg" alt="Employee Img One">
+                <figcaption>Brad Jones - CEO and Rafting Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee02.jpg" alt="Employee Image Two">
+                <figcaption>Troy Warner - Rafting Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee03.jpg" alt="Employee Image Three">
+                <figcaption>Jennifer Willams - Rafting Guide</figcaption>
+            </figure>
+
+        </section>
+
+        <section class="user-form">
+            <h2>Send Us a Message</h2>
+            <form>
+                <!--Users name-->
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+                <!--Users email address-->
+                <label for="useremail">Email Address:</label>
+                <input type="email" id="useremail" name="useremail">
+                <!--Monthly newsletter-->
+                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                <input type="checkbox" id="newsletter" name="newsletter">
+
+                <!--Purpose of the message-->
+                <label for="purpose">What is your question related to?</label>
+                <select name="purpose" id="purpose">
+                    <option value="inquiry">General Inquiry</option>
+                    <option value="reservation">Reservation Question</option>
+                    <option value="website">Website Suggestion</option>
+                </select>
+                <!--Users message-->
+                <label for="message">What is your Message?</label>
+                <textarea name="message" id="message" rows="4" cols="50"></textarea>
+                <!--Submit button-->
+                <button type="submit">Send Message</button>
+            </form>
+
+        </section>
+        <section class="info">
+            <h2>Contact Us</h2>
+            <p>Adress: 1140 S. Main St. Moab, Utah 84532</p>
+            <p>Phone Number: 435-259-4046 </p>
+            <p>Email: info@downtheriver.com</p>
+
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d573.5964159823781!2d-109.53907590759897!3d38.555635975991734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8747e2240022f845%3A0x812ed366f6e763f0!2s1140%20S%20Main%20St%2C%20Moab%2C%20UT%2084532!5e1!3m2!1sen!2sus!4v1743538738510!5m2!1sen!2sus"
+                    width="400" height="300" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+        <p>© 2025 | Down the River | Daniel Rasmuson</p>
+
+
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook Image">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram Image">
+            </a>
+            <a href="htpps://youtube.com">
+                <img src="images/youtube.png" alt="Youtube Image">
+            </a>
+
+
+        </nav>
+        <nav class="wireframe">
+            <a href="https://app.moqups.com/OyJK6LRfvxoVLotnhT5GA9QX22jQJlB2/view/page/ad64222d5">Wireframe</a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
