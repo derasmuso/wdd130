@@ -63,12 +63,25 @@
                 <input type="checkbox" id="newsletter" name="newsletter">
 
                 <!--Purpose of the message-->
-                <label for="purpose">What is your question related to?</label>
-                <select name="purpose" id="purpose">
-                    <option value="inquiry">General Inquiry</option>
-                    <option value="reservation">Reservation Question</option>
-                    <option value="website">Website Suggestion</option>
-                </select>
+
+
+
+                <p>What is your question related to?</p>
+                <div class="radio-group">
+                    <label>
+                        <input type="radio" name="purpose" value="inquiry"> General Inquiry
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="reservation"> Reservation Question
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="website"> Website Suggestion
+                    </label>
+                </div>
+
+
+
+
                 <!--Users message-->
                 <label for="message">What is your Message?</label>
                 <textarea name="message" id="message" rows="4" cols="50"></textarea>
@@ -79,9 +92,12 @@
         </section>
         <section class="info">
             <h2>Contact Us</h2>
-            <p>Adress: 1140 S. Main St. Moab, Utah 84532</p>
-            <p>Phone Number: 435-259-4046 </p>
-            <p>Email: info@downtheriver.com</p>
+            <p class="company-address">Address:</p>
+            <p>1140 S. Main St. Moab, Utah 84532</p>
+            <p class="company-phone">Phone Number:</p>
+            <p>435-259-4046</p>
+            <p class="company-email">Email:</p>
+            <p>info@downtheriver.com</p>
 
             <div class="map">
                 <iframe
