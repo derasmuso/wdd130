@@ -269,6 +269,8 @@ footer p {
     width: 25px;
     height: 25px;
     margin-left: 1px;
+    margin-top: 25px;
+
 }
 
 .user-form button {
@@ -304,6 +306,7 @@ footer p {
 .user-form button:hover {
     background-color: gray;
 }
+
 
 
 /* Company Information */
