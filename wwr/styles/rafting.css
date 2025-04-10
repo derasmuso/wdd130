@@ -103,6 +103,10 @@ header {
 
 }
 
+.navbar a:hover {
+    background-color: var(--secondary-color);
+}
+
 header img {
     padding: 10px 50px
 }
@@ -397,14 +401,18 @@ footer p {
     background: var(--secondary-color);
     color: black;
     text-decoration: none;
-    border-radius: 5px;
     padding: 10px 15px;
     font-size: 1.5rem;
 }
 
+.cta-button:hover {
+    background-color: var(--accent1-color);
+}
+
 /* Offerings Layout */
 
-.offerings {
+.offerings,
+.trips {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
@@ -423,16 +431,18 @@ footer p {
     font-size: 2.5em;
 }
 
-.offerings img {
+.offerings img,
+.trips img {
     width: 100%;
     height: auto;
 
 
 }
 
-.subheading {
+.subheading,
+.trips-subheading {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 /* Newsletter Layout */
@@ -483,5 +493,58 @@ footer p {
 }
 
 .newsletter button:hover {
+    background-color: var(--primary-color);
+}
+
+/* Trips Page Layout */
+
+.trips h1 {
+    grid-column: span 3;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    border: 1px solid;
+    padding: 15px;
+    text-align: center;
+}
+
+thead th {
+    background-color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.contact-button {
+    background: var(--secondary-color);
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+}
+
+.contact-us {
+    background-color: var(--accent2-color);
+    text-align: center;
+    padding: 20px;
+    width: 30%;
+    margin: 20px auto;
+
+}
+
+.contact-us h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.contact-button:hover {
     background-color: var(--primary-color);
 }
